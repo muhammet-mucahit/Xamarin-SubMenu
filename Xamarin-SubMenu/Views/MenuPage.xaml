@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_SubMenu.Views.MenuPage"
+             Title="Menü"
+             BackgroundColor="{DynamicResource Primary}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.Padding>
+            <OnPlatform x:TypeArguments="Thickness">
+                <On Platform="iOS" Value="20,60,20,20" />
+                <On Platform="Android" Value="20,20,20,20" />
+            </OnPlatform>
+        </Grid.Padding>
+        <Grid Padding="0, 0, 0, 30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Image Source="profile" HeightRequest="60" />
+            <Label Grid.Column="1"
+                   x:Name="lbl_username"
+                   HorizontalOptions="StartAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   TextColor="{DynamicResource OnPrimary}"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   Text="Muhammet Mücahit AKTEPE"/>
+        </Grid>
+       
+        <ListView Grid.Row="1"
+                  x:Name="ListViewMenu"
+                  SeparatorVisibility="None"
+                  HasUnevenRows="true"
+                  BackgroundColor="Transparent"
+                  CachingStrategy="RecycleElement">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="0, 15">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding LeadingIcon}" HeightRequest="24" />
+                            <Label Grid.Column="1"
+                                   Text="{Binding Title}"
+                                   Style="{StaticResource MenuItemTextStyle}"/>
+                            <Image Grid.Column="2"
+                                   Source="{Binding TrailingIcon}"
+                                   HeightRequest="20" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>

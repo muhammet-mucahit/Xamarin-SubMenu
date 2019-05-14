@@ -1,0 +1,17 @@
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/actool/_PartialAppManifest.items
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/actool/_BundleResourceWithLogicalName.items
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/coremlc/_PartialAppManifest.items
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/tab_about.png
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/tab_about@2x.png
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/tab_about@3x.png
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/tab_feed.png
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/tab_feed@2x.png
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/tab_feed@3x.png
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/xamarin_logo.png
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/xamarin_logo@2x.png
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/xamarin_logo@3x.png
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/Xamarin-SubMenu.iOS.csprojAssemblyReference.cache
+/Users/mucahit/Projects/Xamarin-SubMenu/Xamarin-SubMenu.iOS/obj/iPhoneSimulator/Debug/Xamarin-SubMenu.iOS.csproj.CoreCompileInputs.cache

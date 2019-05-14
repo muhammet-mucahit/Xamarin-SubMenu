@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_SubMenu.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--Colors-->
+            <Color x:Key="NavigationPrimary">#282828</Color>
+            <Color x:Key="OnNavigationPrimary">White</Color>
+            
+            <Color x:Key="AlertPrimary">#9C2628</Color>
+            <Color x:Key="OnAlertPrimary">White</Color>
+            
+            <Color x:Key="Surface">White</Color>
+            <Color x:Key="OnSurface">#282828</Color>
+            
+            <Color x:Key="Primary">#282828</Color>
+            <Color x:Key="OnPrimary">White</Color>
+            
+            <Color x:Key="Secondary">#A9936B</Color>
+            <Color x:Key="OnSecondary">White</Color>
+
+            <OnPlatform x:TypeArguments="x:String" x:Key="Font">
+                <On Platform="Android" Value="Futura.ttf#Futura" />
+                <On Platform="iOS" Value="Futura" />
+            </OnPlatform>
+            
+            <!--Global Styles-->
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{DynamicResource NavigationPrimary}" />
+                <Setter Property="BarTextColor" Value="{DynamicResource OnNavigationPrimary}" />
+            </Style>
+            
+            <Style TargetType="Label">
+                <Setter Property="FontFamily" Value="{DynamicResource Font}" />
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
